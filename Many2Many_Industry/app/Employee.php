@@ -20,6 +20,6 @@ class Employee extends Model
 
     public function tasks(){
 
-        return $this->belongsTo(Task::class);
+        return $this->belongsToMany(Task::class);
     }
 }

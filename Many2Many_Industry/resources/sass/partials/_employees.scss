@@ -1,0 +1,12 @@
+#employees{
+    .task-list{
+        margin-top: 10px;;
+    }
+   ul.horizontal{
+       display: flex;
+       flex-wrap: wrap;
+       li{
+           flex-basis: 50%;
+       }
+   } 
+}

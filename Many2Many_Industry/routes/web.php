@@ -15,3 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','TestController@home')
 -> name('home');
+
+Route::get('/locations','TestController@locations')
+-> name('locations');
+
+Route::get('/employees','TestController@employees')
+-> name('employees');
