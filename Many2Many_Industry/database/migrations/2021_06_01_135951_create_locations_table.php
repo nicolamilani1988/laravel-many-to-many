@@ -18,7 +18,7 @@ class CreateLocationsTable extends Migration
 
             $table->string('address');
             $table->string('state');
-            $table->integer('postcode');
+            $table->string('postcode');
 
             $table->timestamps();
         });
