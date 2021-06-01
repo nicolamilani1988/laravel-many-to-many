@@ -1,0 +1,25 @@
+header,footer{
+    background-color: #F8963F;
+    color: white;
+    padding: 15px 0;
+}
+header{
+    .container{
+        display: flex;
+        justify-content: center;
+        .title{
+            display: flex;
+            align-items: center;
+            .logo{
+                width: 100px;
+                margin-right: 10px;;
+                img{
+                    width: 100%;
+                }
+            }
+        }     
+    }
+}
+footer{
+    text-align: center;
+}
